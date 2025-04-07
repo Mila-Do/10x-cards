@@ -10,20 +10,23 @@ Aplikacja do tworzenia i zarządzania zestawami fiszek edukacyjnych, wykorzystuj
 - Integracja z algorytmem powtórek (spaced repetition)
 - Statystyki generowania fiszek
 
-## Technologie
+## Ograniczenia MVP
 
-Projekt wykorzystuje:
-- Next.js 14 (App Router)
-- TypeScript
-- tRPC dla typebezpiecznych wywołań API
-- Prisma dla typebezpiecznego dostępu do bazy danych
-- TailwindCSS do stylowania
-- NextAuth.js do autoryzacji
-- Zod do walidacji
+W pierwszej wersji produktu nie są dostępne:
+- Własny algorytm powtórek (korzystamy z gotowego rozwiązania open-source)
+- Mechanizmy gamifikacji
+- Aplikacje mobilne (obecnie tylko wersja web)
+- Import wielu formatów dokumentów (PDF, DOCX itp.)
+- Publicznie dostępne API
+- Współdzielenie fiszek między użytkownikami
+- Rozbudowany system powiadomień
+- Zaawansowane wyszukiwanie fiszek po słowach kluczowych
 
-## Lokalna instalacja i uruchomienie
+## Aspekty prawne
 
-Instrukcje instalacji i uruchomienia pojawią się wkrótce.
+- Dane osobowe użytkowników i fiszek są przechowywane zgodnie z RODO
+- Użytkownicy mają prawo do wglądu i usunięcia swoich danych (konto wraz z fiszkami) na życzenie
+- Dostęp do fiszek jest ograniczony tylko do ich właściciela
 
 ## Status projektu
 
